@@ -1,23 +1,22 @@
 {
-  "dependencies": {
-    "inquirer": "^8.2.0"
-  },
-  "name": "readme-generator",
+  "name": "portfolio-generator",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seene3/readme-generator.git"
+    "url": "git+https://github.com/seene3/portfolio-generator.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/seene3/readme-generator/issues"
+    "url": "https://github.com/seene3/portfolio-generator/issues"
   },
-  "homepage": "https://github.com/seene3/readme-generator#readme",
-  "description": ""
+  "homepage": "https://github.com/seene3/portfolio-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }
