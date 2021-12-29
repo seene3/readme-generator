@@ -50,13 +50,19 @@ const promptUser = () => {
             type: 'input',
             name: 'projectContributers',
             message: 'Who worked on the project?'
+        },
+        {
+            type: 'input',
+            name: 'projectLink',
+            message: 'Please link the project'
         }
     ])
     .then(answers => readMeData.projects = {
         projectName: answers.projectName,
         projectDescription: answers.projectDescription,
         projectLang: answers.projectLang,
-        projectContributers: answers.projectContributers
+        projectContributers: answers.projectContributers,
+        projectLink: answers.projectLink
     })
 }
 
